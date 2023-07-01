@@ -1,0 +1,25 @@
+@import './styles/theme.scss';
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formContainer {
+    max-width: 70.4rem;
+    flex-grow: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    .formPropertiesContainer {
+        display: flex;
+        flex-direction: column;
+        background: $dark-grey;
+        padding: 3.2rem;
+        gap: 2rem;
+    }
+}

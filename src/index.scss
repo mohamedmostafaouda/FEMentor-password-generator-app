@@ -1,0 +1,26 @@
+@import './styles/theme.scss';
+
+@font-face {
+    font-family: 'jetbrainsMono';
+    src: url('../public/assets/fonts/JetBrainsMono-VariableFont_wght.ttf');
+}
+
+body,
+html {
+    background-color: #08070B;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-family: 'jetbrainsMono';
+    color: $almost-white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+}

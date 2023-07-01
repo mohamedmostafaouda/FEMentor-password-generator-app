@@ -1,0 +1,44 @@
+@import '../../styles/theme.scss';
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    cursor: pointer;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid $almost-white;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background: $neon-green;
+    border: 2px solid $neon-green;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-image: url('../../../public/assets/images/icon-check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}

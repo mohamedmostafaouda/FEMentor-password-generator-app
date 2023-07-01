@@ -1,0 +1,28 @@
+@import '../../styles/theme.scss';
+
+.button {
+    all: unset;
+    background: $neon-green;
+    text-align: center;
+    color: $dark-grey;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: transparent;
+    color: $neon-green;
+    border: 1px solid $neon-green;
+
+    svg {
+        fill: $neon-green !important;
+    }
+}

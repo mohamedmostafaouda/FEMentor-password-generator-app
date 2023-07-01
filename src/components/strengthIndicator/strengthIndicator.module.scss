@@ -1,0 +1,27 @@
+@import '../../styles/theme.scss';
+
+.strengthIndicatorContainer {
+    background-color: $very-dark-grey;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Strength Meter Styles */
+
+
+.barContainer {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    text-transform: uppercase;
+
+    .bar {
+        box-sizing: border-box;
+        height: 2.8rem;
+        width: 1rem;
+        border: 2px solid $almost-white;
+    }
+}
