@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FEMentor-password-generator-app/static/css/main.2a884eba.css",
-    "main.js": "/FEMentor-password-generator-app/static/js/main.ec67b9e0.js",
+    "main.css": "/FEMentor-password-generator-app/static/css/main.36c0f4ae.css",
+    "main.js": "/FEMentor-password-generator-app/static/js/main.af83533c.js",
     "static/media/JetBrainsMono-VariableFont_wght.ttf": "/FEMentor-password-generator-app/static/media/JetBrainsMono-VariableFont_wght.ebc33bd57e78956d75ad.ttf",
     "index.html": "/FEMentor-password-generator-app/index.html",
     "static/media/icon-copy.svg": "/FEMentor-password-generator-app/static/media/icon-copy.3c0b0f567ebf5d3c9ec43c847de5a85e.svg",
     "static/media/icon-arrow-right.svg": "/FEMentor-password-generator-app/static/media/icon-arrow-right.fbbcf938c1de92c0abacfad97d492da5.svg",
     "static/media/icon-check.svg": "/FEMentor-password-generator-app/static/media/icon-check.c0e2bb9365c6d9e8bbe4.svg",
-    "main.2a884eba.css.map": "/FEMentor-password-generator-app/static/css/main.2a884eba.css.map",
-    "main.ec67b9e0.js.map": "/FEMentor-password-generator-app/static/js/main.ec67b9e0.js.map"
+    "main.36c0f4ae.css.map": "/FEMentor-password-generator-app/static/css/main.36c0f4ae.css.map",
+    "main.af83533c.js.map": "/FEMentor-password-generator-app/static/js/main.af83533c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a884eba.css",
-    "static/js/main.ec67b9e0.js"
+    "static/css/main.36c0f4ae.css",
+    "static/js/main.af83533c.js"
   ]
 }
