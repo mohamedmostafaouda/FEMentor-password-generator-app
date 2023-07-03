@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/password-generator-app-with-react-js-GhQWso5DU9
 - Live Site URL: https://mohamedmostafaouda.github.io/FEMentor-password-generator-app/
 
 ## My process
